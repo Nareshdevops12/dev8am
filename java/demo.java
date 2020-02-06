@@ -20,13 +20,6 @@ class CheckEvenOdd
 }
 
 
-
-
-
-
-====================================================================================
-
-
 public class QuotientRemainder {
     public static void main(String[] args) {
         int dividend = 25, divisor = 4;
@@ -36,6 +29,7 @@ public class QuotientRemainder {
         System.out.println("Remainder = " + remainder);
     }
 }
+
 
 public class PositiveNegative {
     public static void main(String[] args) {
@@ -49,5 +43,18 @@ public class PositiveNegative {
         // if both test expression is evaluated to false
         else
             System.out.println(number + " is 0.");
+
+
+    }
+}    
+
+public class MultiplicationTable {
+    public static void main(String[] args) {
+        int num = 5;
+        for(int i = 1; i <= 10; ++i)
+        {
+            System.out.printf("%d * %d = %d \n", num, i, num * i);
+        }
+
     }
 }
