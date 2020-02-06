@@ -20,13 +20,6 @@ class CheckEvenOdd
 }
 
 
-
-
-
-
-====================================================================================
-
-
 public class QuotientRemainder {
     public static void main(String[] args) {
         int dividend = 25, divisor = 4;
@@ -34,5 +27,19 @@ public class QuotientRemainder {
         int remainder = dividend % divisor;
         System.out.println("Quotient = " + quotient);
         System.out.println("Remainder = " + remainder);
+    }
+}
+
+
+
+
+
+public class MultiplicationTable {
+    public static void main(String[] args) {
+        int num = 5;
+        for(int i = 1; i <= 10; ++i)
+        {
+            System.out.printf("%d * %d = %d \n", num, i, num * i);
+        }
     }
 }
